@@ -13,7 +13,7 @@ def create_variable() -> int:
         int: The integer value 42
     """
     # TODO: Implement this function
-    pass
+    return 42
 
 
 def create_string_variable() -> str:
