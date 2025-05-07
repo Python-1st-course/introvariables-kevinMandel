@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "Setup Environment",
+      "setup": "pip install -r requirements.txt && pip install -e .",
+      "run": "echo 'Setup complete'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0
+    },
+    {
+      "name": "test_create_variable",
+      "setup": "",
+      "run": "python -m pytest tests/topics/intro_to_variables/test_variables.py::test_create_variable -v",
+      "input": "",
+      "output": "1 passed",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_create_string_variable",
+      "setup": "",
+      "run": "python -m pytest tests/topics/intro_to_variables/test_variables.py::test_create_string_variable -v",
+      "input": "",
+      "output": "1 passed",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_add_variables",
+      "setup": "",
+      "run": "python -m pytest tests/topics/intro_to_variables/test_variables.py::test_add_variables -v",
+      "input": "",
+      "output": "1 passed",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_concatenate_strings",
+      "setup": "",
+      "run": "python -m pytest tests/topics/intro_to_variables/test_variables.py::test_concatenate_strings -v",
+      "input": "",
+      "output": "1 passed",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_variable_type_conversion",
+      "setup": "",
+      "run": "python -m pytest tests/topics/intro_to_variables/test_variables.py::test_variable_type_conversion -v",
+      "input": "",
+      "output": "1 passed",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
